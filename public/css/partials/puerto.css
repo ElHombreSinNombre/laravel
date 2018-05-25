@@ -1,0 +1,40 @@
+body {
+  background-image: url("/img/backgrey.png");
+  background-size: cover;
+}
+
+.img-responsive {
+  margin: 0 auto;
+  height: auto;
+  width: 7.5em;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.img-responsive:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.navbar {
+  position: relative;
+}
+
+ul[role=menu] > li {
+  opacity: 0.5;
+}
+
+ul[role=menu] > li:hover {
+  opacity: 1;
+}
+
+ul[role=menu] {
+  background-color: white !important;
+}
+
+ul[role=menu]:hover {
+  background-color: whitesmoke !important;
+}
+

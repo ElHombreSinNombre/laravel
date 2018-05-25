@@ -1,0 +1,38 @@
+//Body
+body {
+    background-image: url('/img/backgrey.png');
+    background-size: cover;
+}
+
+//Img
+.img-responsive {
+    margin: 0 auto;
+    height: auto;
+    width: 7.5em;
+    filter: grayscale(100%);
+    &:hover,
+        {
+        filter: none;
+        filter: grayscale(0%);
+    }
+}
+
+//Navbar
+.navbar {
+    position: relative;
+}
+
+//Dropdown
+ul[role=menu]> li{
+   opacity:0.5;
+    &:hover {
+        opacity:1;
+    }
+}
+
+ul[role=menu] {
+    background-color: rgba(255, 255, 255, 1) !important;
+    &:hover {
+        background-color: rgba(245, 245, 245, 1) !important;
+    }
+}

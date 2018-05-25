@@ -1,0 +1,36 @@
+//Body
+body {
+    background-image: url('/img/fotopuerto.jpg');
+    background-size: cover;
+}
+
+//Button
+.btn-primary {
+    &:hover,
+    &:active,
+    &.hover {
+        background-color: rgba(54, 127, 169, 1);
+        &:hover {
+            color: #fff;
+            border-color: rgba(31, 100, 139, 1);
+        }
+    }
+}
+
+//Alerts
+.alert {
+    color: rgba(255, 255, 255, 1);
+    border-radius: 0.25em;
+    border: 0.0625em solid rgba(0, 0, 0, 1.0);
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.65), 1px -1px 0 rgba(214, 166, 166, 0.65), -1px 1px 0 rgba(0, 0, 0, 0.65), 1px 1px 0 rgba(0, 0, 0, 0.65);
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.alert-danger {
+    @extend .alert;
+    background-color: #D32F2F !important;
+}

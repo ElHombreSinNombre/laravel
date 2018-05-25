@@ -1,0 +1,104 @@
+.form-group label {
+  font-weight: bold !important;
+}
+
+.iconos-opciones,
+.fa-file-pdf-o,
+.fa-file-excel-o,
+.fa-eraser {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.iconos-opciones:hover,
+.fa-file-pdf-o:hover,
+.fa-file-excel-o:hover,
+.fa-eraser:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.fa-file-pdf-o {
+  color: #d32f2f;
+}
+
+.fa-file-excel-o {
+  color: #00796b !important;
+}
+
+.fa-eraser {
+  color: #ffa000 !important;
+}
+
+.glyphicon-info-sign {
+  opacity: 0.6;
+  font-size: 0.75em;
+}
+
+.glyphicon-info-sign:hover {
+  opacity: 1;
+}
+
+.pagination > li > a > .glyphicon,
+.pagination > .glyphicon > li > span > .glyphicon {
+  font-size: 1.6em;
+}
+
+.pagination > li > a:hover,
+.pagination > li > a:focus,
+.pagination > li > span:hover,
+.pagination > li > span:focus {
+  color: black;
+}
+
+.glyphicon-calendar {
+  cursor: pointer;
+}
+
+.separator {
+  border-right: 0.0625em solid black;
+}
+
+.container-fluid {
+  padding-top: 0.3125em !important;
+}
+
+.glyphicon-remove {
+  cursor: pointer;
+}
+
+button.dt-button,
+div.dt-button,
+a.dt-button {
+  border: none !important;
+  background-color: inherit !important;
+  background-image: none !important;
+  padding: 1em !important;
+  font-size: 1.1em !important;
+  display: inline !important;
+}
+
+button.dt-button:hover,
+button.dt-button:active,
+div.dt-button:hover,
+div.dt-button:active,
+a.dt-button:hover,
+a.dt-button:active {
+  font-weight: bold;
+  border: none !important;
+  background-color: inherit !important;
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+div.dt-buttons {
+  float: right !important;
+}
+
+a.dt-button.buttons-separator {
+  cursor: context-menu !important;
+  pointer-events: none !important;
+}
+
